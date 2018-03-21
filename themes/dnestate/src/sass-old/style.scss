@@ -1,0 +1,139 @@
+@import "./ostyle";
+
+body {
+  font-family: futura-pt,kozuka-gothic-pro,source-han-sans-traditional,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #979797;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@import "./usermenu-area";
+@import "./mainmenu-area";
+@import "./footer";
+
+@import "./form";
+
+@import "./shotcode";
+@import "./general";
+
+@import "./responsive";
+
+.main {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+@media (max-width: 479px)
+{
+  .main {
+    width: 300px;
+  }
+}
+
+.fa {
+  font-size: 17px;
+}
+
+.page-title {
+  padding: 35px 0;
+  margin: 0;
+}
+
+.region-content {
+  padding-bottom: 60px;
+}
+
+.view-properties {
+  .views-row {
+    border: 1px solid #ddd;
+    margin-bottom: 45px;
+    background-color: #fff;
+    .info {
+      padding: 15px;
+
+      a {
+        color: #979797;
+      }
+    }
+    .title {
+      a {
+
+        font-weight: 600;
+        font-size: 19px;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .floor {
+      border-bottom: 1px dotted #979797;
+    }
+  }
+
+
+  img {
+    display: table-cell;
+    margin: 0 auto;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+#mainmenu {
+
+}
+
+.sc_aligncenter img {
+  height: auto !important;
+}
+
+.view-gallery {
+  .views-row {
+    margin-bottom: 35px;
+  }
+}
+
+.block-md-slider-highlights {
+  margin-bottom: 35px;
+}
+
+.openResponsiveMenu {
+  margin: 10px auto 0;
+}
+
+.portfolioInfo {
+  color: #fff;
+  margin-bottom: 8px;
+  h4 {
+    margin-bottom: 8px;
+    padding: 0;
+    font-weight: 600;
+  }
+  a {
+    color: #fff;
+  }
+}
+
+.field-name-field-house-plan {
+  img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+input {
+  width: 100%;
+}
+
+#block-md-slider-highlights {
+  margin-bottom: 35px;
+}

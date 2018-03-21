@@ -1,0 +1,539 @@
+
+/* -- transition -- */
+.postSharing a,
+.postSharing a:hover,
+ul > li.like > a > span.likePost:before,
+ul > li.likeActive > a > span.likePost:before,
+ul > li.like > a:hover > span.likePost:before,
+ul > li.likeActive > a:hover > span.likePost:before,
+.sc_video_player .sc_video_play_button:after,
+.sc_video_player:hover .sc_video_play_button:after,
+.sc_video_player:active .sc_video_play_button:after,
+.mejs-controls .mejs-play,
+.mejs-controls .mejs-pause,
+.mejs-controls .mejs-mute.mejs-button,
+.mejs-controls .mejs-unmute.mejs-button,
+.roundButton a,
+.roundButton a:hover,
+input[type="submit"],
+input[type="button"],
+.squareButton > a,
+.squareButton > a:hover,
+.nav_pages_parts > a > span,
+.nav_comments > a,
+.comments_list a.comment-edit-link,
+.hoverIncrease .hoverIcon,
+.hoverIncrease .hoverLink,
+.hoverIncrease .hoverShadow,
+.hoverIncreaseIn .hoverIcon,
+.hoverIncreaseIn .hoverLink,
+.hoverIncreaseIn .hoverShadow,
+.sc_team .sc_team_item,
+.sc_team .sc_team_item .sc_team_item_avatar,
+.sc_team .sc_team_item .sc_team_item_avatar:before,
+.footerWidget .flickr_badge_image a:before,
+.footerWidget .flickr_images > a:before,
+.footerWidget .instagram-pics li a:before,
+.twitBlock .flex-direction-nav li a:before,
+.twitBlock .flex-direction-nav li a,
+.twitBlock .flex-direction-nav li,
+.sc_testimonials .flex-direction-nav a,
+.sc_scroll_controls .flex-direction-nav a,
+.upToScroll.buttonShow,
+.upToScroll,
+.sc_section.sc_scroll_controls_horizontal.sc_scroll_controls ul.flex-direction-nav li,
+.pagination .flex-direction-nav a,
+.pagination .flex-direction-nav a:hover,
+.pagination .flex-direction-nav a:active,
+.tp-leftarrow.default:before,
+.tp-rightarrow.default:before,
+body.boxed,
+body.boxed .boxedWrap,
+.topWrap .search:not(.searchOpen):before,
+.topWrap .search .searchSubmit .icoSearch:before,
+.fullScreenSlider .sliderHomeBullets .order a,
+.widgetWrap .tagcloud a,
+.sc_tabs ul.sc_tabs_titles li a,
+.sc_tabs ul.sc_tabs_titles li a:after,
+.sc_slider_flex ul.flex-direction-nav li,
+.sc_slider_chop ul.flex-direction-nav li,
+.sc_slider_swiper ul.flex-direction-nav li,
+.sc_slider_flex ul.flex-direction-nav a,
+.sc_slider_chop ul.flex-direction-nav a,
+.sc_slider_swiper ul.flex-direction-nav a,
+.sc_testimonials_style .flex-direction-nav li,
+.copyWrap .socPage ul li a,
+.widget_socials .socPage ul li a,
+.contactFooter .contactShare ul li a,
+.widget_area .instagram-pics li a:after,
+.widget_area .instagram-pics li a:before,
+.widget_area .flickr_images .flickr_badge_image a:after,
+.widget_area .flickr_images .flickr_badge_image a:before,
+.wp-calendar tbody td a,
+.footerContentWrap .sc_googlemap,
+.sc_price_money,
+.sc_price_currency,
+.sc_pricing_data > span,
+.sc_contact_form input[type="text"],
+.sc_contact_form input[type="password"],
+.sc_contact_form textarea,
+.commentsForm textarea,
+.commentsForm input[type="text"],
+.commentsForm input[type="password"],
+ul > li.share > ul.shareDrop:before,
+ul > li.like > a > span.likePost,
+ul > li.likeActive > a > span.likePost,
+.author .socPage ul li a,
+.relatedPostWrap .wrap:before,
+.portfolioWrap .isotopePadding:before,
+.isotopeFiltr ul a .data_count,
+.menuSearch .searchSubmit:before,
+.upToScroll a,
+.relatedPostWrap.sc_blogger article .readmore_blogger,
+.relatedPostWrap.sc_blogger article .wrap_bottom_info,
+.relatedPostWrap article a,
+.widget_area .tabs_area ul.tabs a,
+.infoTopWrap .cart > .cart_button:before,
+.iColorPicker:before,
+#custom_options .co_options #co_bg_pattern_list a img,
+a.sc_image_hover_link .hoverLink,
+a.sc_image_hover_link .hoverShadow,
+.sc_team .sc_team_item .sc_team_item_avatar:before,
+.sc_team .sc_team_item .sc_team_item_avatar .hoverLink,
+.openResponsiveMenu,
+.openResponsiveMenu:before,
+.squareButton > a:after,
+.hoverIncreaseOut .hoverShadow,
+.hoverIncreaseOut .wrap_hover,
+.hoverIncreaseOut .wrap_hover *,
+.hoverIncreaseOut .hoverIcon > a:before,
+.hoverIncrease .hoverIcon > a:before,
+.sc_emailer .sInput,
+#booking_calendar_container .booking_day_white a,
+#booking_calendar_container .booking_day_white a *,
+#form_container_all #booking_submit_button,
+#form_container_all .booking_clear_custom,
+.woocommerce nav.woocommerce-pagination ul li a:after,
+.woocommerce #content nav.woocommerce-pagination ul li a:after,
+.woocommerce-page nav.woocommerce-pagination ul li a:after,
+.woocommerce-page #content nav.woocommerce-pagination ul li a:after,
+#booking_container input:not(#booking_submit_button),
+#booking_container textarea,
+.revlink,
+#co_scheme_list > a:before
+{
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.widget_socials .socPage ul li a,
+.author .socPage li a
+{
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.topWrap .search:not(.searchOpen) {
+  -webkit-transition: border-color 0.3s ease-out, opacity 0.3s ease-out, width 0.3s ease-out;
+  -moz-transition: border-color 0.3s ease-out, opacity 0.3s ease-out, width 0.3s ease-out;
+  -ms-transition: border-color 0.3s ease-out, opacity 0.3s ease-out, width 0.3s ease-out;
+  -o-transition: border-color 0.3s ease-out, opacity 0.3s ease-out, width 0.3s ease-out;
+  transition: border-color 0.3s ease-out, opacity 0.3s ease-out, width 0.3s ease-out;
+}
+
+.topWrap .cart .cart_button {
+  -webkit-transition: border-color 0.3s ease-out;
+  -moz-transition: border-color 0.3s ease-out;
+  -ms-transition: border-color 0.3s ease-out;
+  -o-transition: border-color-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out;
+}
+
+.topWrap .topMenuStyleLine a,
+.topWrap .topMenuStyleLine a:after,
+.sidemenu_wrap .sidemenu_area a,
+.sidemenu_wrap .sidemenu_area li:before,
+.swpRightPos .searchBlock .searchSubmit:before,
+.swpRightPos .panelmenu_area a,
+.swpRightPos .panelmenu_area li:before,
+.topWrap .usermenu_area ul.usermenu_list > li > a,
+#custom_options .co_options #co_bg_images_list a:before,
+#custom_options .co_options #co_bg_pattern_list a:before,
+.sidemenu_wrap .usermenu_area ul.usermenu_list > li.usermenu_login > a {
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.contactFooter .contactShare ul li a:hover span,
+.socPage li a:hover span,
+a.sc_image_hover .img_hover {
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -ms-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+header .topWrap {
+  -webkit-transition: top 0.1s ease-out;
+  -moz-transition: top 0.1s ease-out;
+  -ms-transition: top 0.1s ease-out;
+  -o-transition: top 0.1s ease-out;
+  transition: top 0.1s ease-out;
+}
+
+
+/*=== [ WP Styles ] =========================================================================================*/
+
+.sticky { position:relative; }
+.sticky .sticky_label { position:absolute; right:0; top: 0; width:48px; height:48px; background-image:url(images/sticky.png); background-repeat:no-repeat; background-position:right top; background-size:48px 48px;}
+.gallery-caption {}
+.bypostauthor {}
+.wp-caption {
+  position: relative;
+  overflow:hidden;
+  max-width:100%;
+}
+.wp-caption a[class*="prettyPhoto"] {
+  display: block;
+}
+.wp-caption a[class*="prettyPhoto"] img {
+  vertical-align: top;
+}
+.wp-caption .wp-caption-text,
+.wp-caption .wp-caption-dd {
+  padding: 6px 0 20px;
+  font-size:12px;
+  line-height:16px;
+  font-style:italic;
+  text-align:center;
+}
+.gallery {
+  margin: 0 -5px;
+}
+.gallery .gallery-item {
+}
+.gallery .gallery-item a {
+  display: block;
+}
+.gallery .gallery-item a img {
+  border: none !important;
+  display: block;
+  width: 100%;
+}
+.gallery .gallery-item .gallery-icon {
+  margin: 0 5px;
+}
+.gallery .gallery-item .gallery-caption {
+}
+.gallery.gallery-columns-9 .gallery-item {
+  width: 11.1111% !important;
+}
+.gallery.gallery-columns-8 .gallery-item {
+  width: 12.5% !important;
+}
+.gallery.gallery-columns-7 .gallery-item {
+  width: 14.2857% !important;
+}
+.gallery.gallery-columns-6 .gallery-item {
+  width: 16.6666% !important;
+}
+.gallery.gallery-columns-5 .gallery-item {
+  width: 20% !important;
+}
+.gallery.gallery-columns-4 .gallery-item {
+  width: 25% !important;
+}
+.gallery.gallery-columns-3 .gallery-item {
+  width: 33.3333% !important;
+}
+.gallery.gallery-columns-2 .gallery-item {
+  width: 50% !important;
+}
+.gallery.gallery-columns-1 .gallery-item {
+  width: 100% !important;
+}
+.gallery.gallery-columns-9 .gallery-caption {
+  font-size: 10px;
+  line-height: 10px;
+  margin: 0;
+  padding: 5px 5px 0;
+}
+.gallery.gallery-columns-8 .gallery-caption {
+  font-size: 11px;
+  line-height: 11px;
+  margin: 0;
+  padding: 5px 5px 0;
+}
+.gallery.gallery-columns-7 .gallery-caption {
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0;
+  padding: 5px 5px 0;
+}
+.gallery.gallery-columns-6 .gallery-caption {
+  font-size: 13px;
+  line-height: 13px;
+  margin: 0;
+  padding: 5px 5px 0;
+}
+.gallery.gallery-columns-5 .gallery-caption, .gallery.gallery-columns-4 .gallery-caption, .gallery.gallery-columns-3 .gallery-caption, .gallery.gallery-columns-2 .gallery-caption, .gallery.gallery-columns-1 .gallery-caption {
+  margin: 0;
+  padding: 5px 5px 0;
+}
+.post-password-form label { display:inline-block; vertical-align:top; }
+.post-password-form input[type="submit"] { display:inline-block; margin-left:10px; height:36px; line-height:36px; }
+
+
+/*hoverIncrease zoom effect*/
+.hoverIncrease{ position:relative; overflow: hidden; text-align: center; }
+.hoverIncrease img{ position:relative; z-index:5; display:block;}
+.hoverIncrease .hoverShadow{ content:''; position:absolute; left:0; top:0; width:100%; height:100%; z-index:6; display: block;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+.hoverIncrease:hover .hoverShadow {
+  height: calc(100% - 20px);
+  height: -webkit-calc(100% - 20px);
+  height: -moz-calc(100% - 20px);
+  width: calc(100% - 20px);
+  width: -webkit-calc(100% - 20px);
+  width: -moz-calc(100% - 20px);
+  left: 10px;
+  margin: 0;
+  top: 10px;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+}
+.hoverIncrease .wrap_hover {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* hoverIncreaseIn */
+.hoverIncreaseIn{ position:relative; overflow: hidden; text-align: center; }
+.hoverIncreaseIn img{ position:relative; z-index:5; display:block;}
+.hoverIncreaseIn .hoverShadow{ content:''; position:absolute; left:0; top:0; width:100%; height:100%; z-index:6; display: block;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+.hoverIncreaseIn:hover .hoverShadow {
+  height: calc(100% - 20px);
+  height: -webkit-calc(100% - 20px);
+  height: -moz-calc(100% - 20px);
+  width: calc(100% - 20px);
+  width: -webkit-calc(100% - 20px);
+  width: -moz-calc(100% - 20px);
+  left: 10px;
+  margin: 0;
+  top: 10px;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+}
+.hoverIncreaseIn .wrap_hover {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* hoverIncreaseOut */
+.hoverIncreaseOut{ position:relative; /*overflow: hidden;*/ text-align: center; }
+.hoverIncreaseOut img{ position:relative; z-index:5; display:block;}
+.hoverIncreaseOut .hoverShadow {
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:6;
+  display: block;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.hoverIncreaseOut:hover .hoverShadow {
+  height: calc(100% - 20px);
+  height: -webkit-calc(100% - 20px);
+  height: -moz-calc(100% - 20px);
+  width: calc(100% - 20px);
+  width: -webkit-calc(100% - 20px);
+  width: -moz-calc(100% - 20px);
+  left: 10px;
+  margin: 0;
+  top: 10px;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+}
+.hoverIncreaseOut .wrap_hover {
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  width: 100%;
+  height: auto;
+  z-index: 9;
+}
+.hoverIncreaseOut .wrap_hover {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.hoverIncreaseOut:hover .wrap_hover {
+  opacity: 1 !important;
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+/* hovers Icons */
+.hoverIncreaseIn .hoverLink,
+.hoverIncrease .hoverIcon,
+.hoverIncrease .hoverIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -30px;
+  margin-top: -30px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  z-index:7;
+}
+.hoverIncreaseOut .hoverIcon {
+  position: relative;
+  top: 0;
+  z-index:7;
+}
+.hoverIncreaseOut .hoverIcon > a,
+.hoverIncreaseIn .hoverLink > a,
+.hoverIncrease .hoverIcon > a {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background: transparent !important;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.hoverIncreaseOut .hoverIcon > a:before,
+.hoverIncreaseIn .hoverLink > a:before,
+.hoverIncrease .hoverIcon > a:before {
+  position:absolute;
+  font-family: "fontello";
+  content: '\e81b';
+  text-align:center;
+  width: 60px;
+  height: 60px;
+  font-size: 18px;
+  line-height: 60px;
+  margin: 0;
+  top:0;
+  left:0;
+}
+.hoverIncreaseIn .hoverLink > a:before {
+  content: '\e882';
+  font-size: 28px;
+  left: 1px;
+}
+.hoverIncreaseOut .hoverIcon > a:after,
+.hoverIncreaseIn .hoverLink > a:after,
+.hoverIncrease .hoverIcon > a:after {
+  box-shadow: 0 0 0 35px #ffffff inset;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scale3d(0.9, 0.9, 1);
+  transition: box-shadow 0.3s ease 0s, transform 0.3s ease 0s;
+  width: 100%;
+  z-index: -1;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 100% !important;
+}
+.hoverIncreaseOut .hoverIcon > a:hover:after,
+.hoverIncreaseIn .hoverLink > a:hover:after,
+.hoverIncrease .hoverIcon > a:hover:after {
+  box-shadow: 0 0 0 2px #ffffff inset;
+  transform: scale3d(1, 1, 1);
+}
+.hoverIncreaseOut .hoverIcon > a:hover:before,
+.hoverIncreaseIn .hoverLink > a:hover:before,
+.hoverIncrease .hoverIcon > a:hover:before {
+  color: #ffffff !important;
+}
+.hoverIncreaseIn:hover .hoverLink,
+.hoverIncrease:hover .hoverIcon {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+/*=== [ Animations ] =========================================================================================*/
+
+@keyframes zoomin {
+  0% {
+    transform: scale(.1);
+    -webkit-transform: scale(.1);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+@-webkit-keyframes viewmore {
+  0% {
+    transform: scale(.1);
+    -webkit-transform: scale(.1);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoomout {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  100% {
+    transform: scale(.1);
+    -webkit-transform: scale(.1);
+  }
+}
+@-webkit-keyframes viewmore {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  100% {
+    transform: scale(.1);
+    -webkit-transform: scale(.1);
+  }
+}

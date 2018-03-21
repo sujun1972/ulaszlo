@@ -1,0 +1,38 @@
+#footer {
+  text-align: center;
+  clear: both;
+  margin: 0;
+  font-size: 13px;
+  color: #a5a5a5;
+  background-color: #000000;
+
+
+  a .logo_info {
+    color: #fff;
+  }
+
+  a {
+    color: #98bd15;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .copyright {
+    overflow: hidden;
+
+    .inner {
+      padding: 15px 0 0;
+      margin-bottom: 15px;
+    }
+  }
+
+  .contact {
+    padding: 15px 0 40px;
+  }
+
+  .footer-top {
+    padding-top: 60px;
+    background-color: #1a1a1a;
+  }
+}

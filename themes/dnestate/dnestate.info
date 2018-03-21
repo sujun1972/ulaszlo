@@ -1,0 +1,12 @@
+name = dnstate
+description = Description of yourtheme.
+core = 7.x
+engine = phptemplate
+;stylesheets[all][] = dist/css/style.css
+
+regions[highlighted] = Highlighted
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer

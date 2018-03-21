@@ -1,0 +1,80 @@
+/*form*/
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  height:53px; line-height:20px; padding:0 20px; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+textarea {
+  padding:20px; resize:vertical; box-sizing: border-box;
+}
+
+textarea.textAreaSize{
+  max-height: 500px !important; min-height: 105px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea { font-family: inherit; font-size: 15px; outline:none; margin: 0;
+  background-color: #f5f5f5;
+  border:none;
+  border-left: 2px solid transparent;
+  color: #979797;
+  font-weight: 400;
+  border-right:none;
+  border-bottom: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus{ border-color:#bebebe !important; }
+button:focus {outline: none; border: none;}
+button::-moz-focus-inner { border: 0; }
+label{
+  color: #3f3a3a;
+  display: block;
+  font-weight: 600;
+  height: 25px;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  font-size: 15px;
+}
+
+label.required:after{
+  color:#f55858; content:'*'; display:block; float:left; margin:0 1px;
+}
+
+.form-item {
+  position: relative;
+}
+
+.form-required {
+  position: absolute;
+  top: 20px;
+  left: 2px;
+}
+.grippie {
+  display: none;
+}
+
+input[type="submit"] {
+  background-color: #fa6839;
+  border-radius: 31px;
+  margin-top: 5px;
+  border-style: none;
+  outline: none;
+  color: #fff !important;
+  &:active {
+    color: #fff;
+  }
+}
+
+@media (max-width: 479px) {
+  input[type="submit"] {
+    height: 43px;
+    line-height: 43px;
+    padding: 0 20px;
+
+  }
+}
+
